@@ -1,0 +1,45 @@
+.nav_link {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #050038;    
+}
+
+.address_link {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #050038;     
+}
+
+.header_btn {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;   
+}
+
+.ideas_title {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #050038;    
+}
+
+.ideas_text {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #050038B8;    
+}
