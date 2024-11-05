@@ -1,3 +1,30 @@
+/* header styles */
+
+header {
+    border-bottom: 1px solid #F0F0F0;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 30px 26px 30px;
+}
+
+.icon-blue_arrow {
+    width: 91px;
+    height: 32px;
+}
+
+.nav_list {
+    display: flex;
+}
+
+.nav_item {
+    margin-left: 28px;
+    margin-right: 16px;
+}
+
+.nav_item:last-child {
+    margin-right: 0;
+}
+
 .nav_link {
     font-family: Arimo;
     font-size: 16px;
@@ -5,6 +32,23 @@
     line-height: 24px;
     text-align: center;
     color: #050038;    
+}
+
+.icon-drop_down {
+    width: 12px;
+    height: 8px;
+}
+
+.address_list {
+    display: flex;
+}
+
+.address_item {
+    margin-right: 16px;
+}
+
+.address_item:last-child {
+    margin-right: 0;
 }
 
 .address_link {
@@ -16,13 +60,41 @@
     color: #050038;     
 }
 
+.icon-globus {
+    width: 24px;
+    height: 24px;
+}
+
+.header_btn_block {
+    display: flex;
+}
+
 .header_btn {
     font-family: Arimo;
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
     text-align: left;
-    color: #FFFFFF;   
+    color: #FFFFFF;
+    border: 1px solid #4262FF;
+    border-radius: 24px;
+    background-color: #4262FF;
+    padding: 17px 21px;  
+}
+
+.btn_ico {
+    width: 107px;
+    height: 16px;
+}
+
+/* ideas styles */
+
+.ideas {
+    display: flex;
+}
+
+.ideas_left_block {
+    padding: 60px 40px 60px 160px;
 }
 
 .ideas_title {
@@ -32,7 +104,8 @@
     line-height: 56px;
     letter-spacing: -1px;
     text-align: left;
-    color: #050038;    
+    color: #050038;
+    margin-bottom: 16px;    
 }
 
 .ideas_text {
@@ -41,7 +114,14 @@
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #050038B8;    
+    color: #050038B8;
+    margin-bottom: 32px;   
+}
+
+.ideas_input_btn_block {
+    width: 440px;
+    height: 109px;
+    top: 208px;
 }
 
 .ideas_email {
@@ -51,7 +131,10 @@
     line-height: 21.78px;
     text-align: left;
     color: #5F5C80;
-    border: 1px solid #9B99AF   
+    border: 1px solid #9B99AF;
+    border-radius: 32px;
+    background-color: #9B99AF;
+    padding: 11px 100px ; 
 }
 
 .ideas_btn {
@@ -61,7 +144,10 @@
     line-height: 27px;
     text-align: center;
     color: #FFFFFF;
-    border: 1px solid #4262FF   
+    border: 1px solid #4262FF;
+    border-radius: 32px;
+    background-color: #4262FF;
+    padding: 11px 100px ; 
 }
 
 .ideas_link {
@@ -71,6 +157,15 @@
     line-height: 20px;
     text-align: left;
     color: #05003866;    
+}
+
+.icon-star {
+    width: 16px;
+    height: 15px;
+}
+
+.help_block {
+    display: flex;
 }
 
 .ideas_sub_text {
@@ -84,16 +179,29 @@
 
 /* companys styles */
 
+.companys {
+    margin-bottom: 84px;
+}
+
 .companys_title {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    color: #05003899;    
+    color: #05003899;
+    margin-bottom: 48px;   
+}
+
+.companys_list {
+    display: flex;
 }
 
 /* colaborate styles */
+
+.collaborate {
+    padding: 24px 150px 120px 150px;
+}
 
 .collaborate_text {
     background-color: #FFD02F;
@@ -107,6 +215,11 @@
     letter-spacing: -1px;
     text-align: center;
     color: #050038;  
+}
+
+.collaborate_list {
+    display: flex;
+    margin-right: 20px;
 }
 
 .collaborate_sub_title {
