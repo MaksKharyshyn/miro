@@ -3,8 +3,13 @@
 header {
     border-bottom: 1px solid #F0F0F0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 24px 30px 26px 30px;
+}
+
+.icon-miro {
+    width: 91px;
+    height: 32px;
 }
 
 .icon-blue_arrow {
@@ -18,7 +23,6 @@ header {
 
 .nav_item {
     margin-left: 28px;
-    margin-right: 16px;
 }
 
 .nav_item:last-child {
